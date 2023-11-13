@@ -24,5 +24,9 @@ install.packages("utils")
 ```
 
 ### Usage
+```
 catch_manucipality(pts)
+```
+```
 catch_minimumElevationInMeters(pts)
+```
