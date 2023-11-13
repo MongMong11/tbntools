@@ -1,7 +1,7 @@
 # tbntools
 
 ### 介紹
-此空間儲存一系列處理和分析資料點位時，極為頻繁使用到的一系列 Functions，以解決我懶惰不想寫太多code的需求。
+此空間儲存在處理和分析tbn資料時，極為頻繁使用到的一系列Functions，以解決我懶惰不想寫太多code的需求。
 
 ### 需安裝 package
 ##### catch_manucipality.R
