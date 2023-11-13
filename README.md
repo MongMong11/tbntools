@@ -3,7 +3,7 @@
 ### 介紹
 此空間儲存在處理和分析tbn資料時，極為頻繁使用到的一系列Functions，以解決我懶惰不想寫太多code的需求。
 
-### 需安裝 package
+### 需先安裝 package
 ##### catch_manucipality.R
 ```R
 install.packages("dplyr")
