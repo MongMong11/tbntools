@@ -48,5 +48,7 @@ catch_municipality <- function(pts){
       do.call(rbind,.)
   )
   stopCluster(cl)
+  names(municipality_table)[names(municipality_table) == 'COUNTYNAME'] <- "county"
+  names(municipality_table)[names(municipality_table) == 'TOWNNAME'] <- "municipality"
 }
 
