@@ -22,7 +22,7 @@ install.packages("utils")
 ### 使用方法
 
 #### [catch_manucipality.R](https://github.com/MongMong11/tbntools/blob/main/catch_municipality.R)
-載入含 "dwcID","decimalLatitude", "decimalLongitude" 欄位的dataset.csv (pts)，並載入相關package，自動從github下載"台灣縣市鄉鎮區界線圖層"，平行運算抓取點位行政區資訊。
+載入含 "dwcID","decimalLatitude", "decimalLongitude" 欄位的dataset.csv (pts)，並載入相關package，自動從github下載"台灣縣市鄉鎮區界線圖層"於相對路徑，平行運算抓取點位行政區資訊。
 ```R
 #載入dataset.csv
 file.name <- list.files(getwd(), full.names = TRUE)
@@ -39,7 +39,7 @@ catch_manucipality(pts)
 ```
 
 #### [catch_minimumElevationInMeters.R](https://github.com/MongMong11/tbntools/blob/main/catch_minimumElevationInMeters.R)
-輸入含 "dwcID","decimalLatitude", "decimalLongitude" 欄位的dataset.csv (pts)，並載入相關package，自動從github下載"twdtm_asterV3_30m"，抓取點位最低海拔資訊。
+輸入含 "dwcID","decimalLatitude", "decimalLongitude" 欄位的dataset.csv (pts)，並載入相關package，自動從github下載"twdtm_asterV3_30m"於相對路徑，抓取點位最低海拔資訊。
 ```R
 #載入dataset.csv
 file.name <- list.files(getwd(), full.names = TRUE)
